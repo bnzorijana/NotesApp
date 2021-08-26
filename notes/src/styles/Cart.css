@@ -1,0 +1,51 @@
+.cart {
+    width: 30%;
+    height: 100vh;
+    border-right: 1px solid #ddd;
+  }
+  
+  .cart-header {
+    
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+}
+.cart-header h1 {
+    margin: 10;
+}
+  
+  .cart-notes {
+    height: calc(100vh - 78px);
+    overflow-y: scroll;
+    
+  }
+  .cart-note {
+    padding: 25px;
+    cursor: pointer;
+    
+    
+  }
+  .cart-title {
+    display: flex;
+    justify-content: space-between;
+  }
+  .delete {
+    color: crimson;
+  }
+  .cart-note p {
+    margin: 10px 0;
+  }
+  .cart-note small {
+    display: block;
+    color: #999;
+  }
+  
+  .cart-note:hover {
+    background: #ddd;
+  }
+  .cart-note.active,
+  .cart-note.active small {
+    background: #08c;
+    color: white;
+  }
+  

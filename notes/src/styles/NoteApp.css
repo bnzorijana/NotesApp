@@ -1,0 +1,83 @@
+.ajout-note{
+    background-color: #fff;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    padding: 1rem;
+    float: right;
+    position: relative;
+    bottom: 700px;
+
+}
+
+.note-button{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    padding: 1rem;
+    min-height: 10x;
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+.add{
+    color: greenyellow;
+    width: 30px;
+    height: 20px;
+}
+.add:hover{
+    background-color: rgb(7, 7, 7);
+    cursor: pointer;
+}
+
+.edit{
+    color: greenyellow;
+    width: 30px;
+    height: 20px;
+}
+.edit:hover{
+    background-color: rgb(7, 7, 7);
+    cursor: pointer;
+}
+.delete{
+    color: greenyellow;
+    width: 30px;
+    height: 20px;
+}
+.delete:hover{
+    background-color: rgb(7, 7, 7);
+    cursor: pointer;
+}
+
+textarea{
+    
+    resize: none;
+    
+    background-color: #fff;
+ 
+}
+textarea:focus{
+    outline: none;
+}
+input{
+    height: 30px;
+}
+.note-footer{
+    text-align: center;
+    position: relative;
+    top: 10px;
+}
+.save{
+    background-color: greenyellow;
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+    width: 100px;
+    height: 40px;
+
+}
+.save:hover{
+    background-color: rgb(7, 7, 7);
+    cursor: pointer;
+}
